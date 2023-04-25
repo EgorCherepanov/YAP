@@ -842,7 +842,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.9562407
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4817,7 +4817,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512224345}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83ce6b998421e10428c1a6d3a7d2387c, type: 3}
   m_Name: 
@@ -5952,8 +5952,8 @@ GameObject:
   - component: {fileID: 1703488892}
   - component: {fileID: 1703488891}
   - component: {fileID: 1703488890}
-  m_Layer: 0
-  m_Name: Square
+  m_Layer: 7
+  m_Name: tiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

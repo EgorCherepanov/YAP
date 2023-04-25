@@ -46,4 +46,18 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene(0);
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name.Equals("tiles")) 
+        {
+            this.transform.parent = collision.transform;
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.name.Equals("tiles")) 
+        {
+            this.transform.parent = null;
+        }
+    }
 }
