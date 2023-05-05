@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.tag == "Respawn")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
