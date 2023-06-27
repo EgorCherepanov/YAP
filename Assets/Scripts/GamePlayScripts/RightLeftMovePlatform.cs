@@ -1,11 +1,7 @@
 using UnityEngine;
 
-
-
 public class RightLeftMovePlatform:MonoBehaviour
 {
-
-
 
 	[SerializeField] private float speed;
 
@@ -13,44 +9,33 @@ public class RightLeftMovePlatform:MonoBehaviour
 
 	[SerializeField] private float endPosition;
 
-
-
 	private bool upMove = true;
 
-
-
 	private Vector3 pos;
-
-
 
 	void Update()
 	{
 
-		transform.position += transform.right * speed * Time.deltaTime;
+		transform.localPosition += transform.right * speed * Time.deltaTime;
 
-		if (pos.x > endPosition && upMove)
+		if (transform.localPosition.x > endPosition && upMove)
 		{
 
 			upMove = false;
 
-			speed *= -1f;
-
+			speed*= -1f;
 		}
 
-		if (pos.x < startingPosition && !upMove)
+		if (transform.localPosition.x < startingPosition && !upMove)
 		{
 
 			upMove = true;
 
-			speed *= -1f;
-
+			speed*= -1f;
 		}
 
-		pos = transform.position;
-
+		pos = transform.localPosition;
 	}
-
-
 
 	void OnCollisionEnter(Collision col)
 	{
@@ -59,15 +44,11 @@ public class RightLeftMovePlatform:MonoBehaviour
 
 	}
 
-
-
 	void OnCollisionExit(Collision col)
 	{
 
 		col.gameObject.transform.parent = null;
 
 	}
-
-
 
 }
