@@ -37,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
+       
 
     }
     void OnTriggerEnter2D(Collider2D other)
@@ -60,4 +61,6 @@ public class PlayerMovement : MonoBehaviour
             this.transform.parent = null;
         }
     }
+
+   
 }
