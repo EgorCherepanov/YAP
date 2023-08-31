@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 44
+  controlID: 97
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 391
     height: 939
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 318
     height: 572
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -128,7 +128,7 @@ MonoBehaviour:
   - {fileID: 18}
   - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 45
+  controlID: 98
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 46
+  controlID: 99
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -525,9 +525,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -20.187164, y: 3.350481, z: 6.1607203}
+    m_Target: {x: 47.917797, y: -4.220842, z: 1.7007743}
     speed: 2
-    m_Value: {x: -20.187164, y: 3.350481, z: 6.1607203}
+    m_Value: {x: 50.036415, y: -4.01839, z: 1.6858044}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -578,9 +578,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 17.617237
+    m_Target: 31.769735
     speed: 2
-    m_Value: 17.617237
+    m_Value: 33.26674
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -738,36 +738,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprite/SpritesForGame
+    - Assets/Scripts/PlayerScripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprite/SpritesForGame
+  - Assets/Scripts/PlayerScripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Development\Keen
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 34660000
-    m_LastClickedID: 26164
-    m_ExpandedIDs: 00000000086600000a6600000c6600000e6600001066000012660000146600001666000000ca9a3b
+    m_SelectedIDs: 60660000
+    m_LastClickedID: 26208
+    m_ExpandedIDs: 00000000426600004466000046660000486600004a6600004c6600004e6600005066000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Scripts
+      m_OriginalName: Scripts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 26190
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -781,7 +781,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000086600000a6600000c6600000e66000010660000126600001466000016660000
+    m_ExpandedIDs: 00000000426600004466000046660000486600004a6600004c6600004e66000050660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -809,21 +809,21 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300005e600000d85f000042610000c264000012630000ce5f0000a8600000e4600000d864000072810000d06400009a61000038620000c6630000fa900000000a010080660000fa670000946a0000986a00009a6a0000966a0000046800004c6c0000026800001868000024680000b2680000e26a0000446900001c6b00002462000054630000ac650000f26400003281000076620000226700007e6200001c640000486400000a6b0000106b0000a6650000e89c0000
+    m_ExpandedInstanceIDs: c62300005e600000d85f000042610000c264000012630000ce5f0000a8600000e4600000d864000072810000d06400009a61000038620000c6630000fa900000000a010080660000fa670000946a0000986a00009a6a0000966a0000046800004c6c0000026800001868000024680000b2680000e26a0000446900001c6b00002462000054630000ac650000f26400003281000076620000226700007e6200001c640000486400000a6b0000106b0000a6650000e89c0000de650000d2650000d4650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: GoToNextLevel
+      m_OriginalName: GoToNextLevel
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 1870
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
@@ -911,7 +911,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6ae6ffffcae6ffffe4e6ffffe8e6ffffece6ffffb0e8ffff1ee9ffffe6eaffffeaeafffff0eaffff12fbffff82630000fe630000d2640000
+      m_ExpandedIDs: 18caffff60caffff7acaffff7ecaffff82caffff1cccfffff8ccffff40cdffff06cfffff10cfffff16cfffffe6cfffffbed0ffff62edffff06f6ffff4cf6ffff66f6ffff6af6ffff6ef6ffff72f6ffffa2f7ffffe8f7ffffb0f9ffffb4f9ffffbaf9ffffc0f9ffff12fbffff84a9000080e300002ce400001ee50000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -956,9 +956,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 631
+    y: 645
     width: 1528
-    height: 360
+    height: 346
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
